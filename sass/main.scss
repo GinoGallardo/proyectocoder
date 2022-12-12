@@ -1,3 +1,16 @@
-h1{
-    color: red($color: #000000);
-}
+@import "./utilidades/variables";
+
+@import "./base/reset";
+
+@import "./component/whatsapp";
+@import "./component/botones";
+@import "./component/navbar";
+@import "./component/footer";
+@import "./component/tarjetas";
+
+@import "./pages/index";
+@import "./pages/productos";
+@import "./pages/quienessomos";
+@import "./pages/servicios";
+@import "./pages/turnos";
+

@@ -1,0 +1,210 @@
+/*-----SEC-QUIENES SOMOS-----*/
+.sec_qs {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  .contenedor_qs {
+    width: 95%;
+    height: 100%;
+    padding: 0.5em;
+    background-color: $color-fondosec;
+    border-radius: 10px;
+    .texto_qs {
+      display: block;
+      text-align: center;
+      padding-top: 10px;
+    }
+    .texto_qs h2 {
+      font-family: $font-h2;
+      font-size: 2rem;
+      margin-top: 10px;
+    }
+    .texto_qs p {
+      font-size: 1.1rem;
+      margin-bottom: 5px;
+    }
+    .enlace_qs {
+      text-align: center;
+      text-transform: uppercase;
+      border-radius: 5px;
+      margin-top: 2em;
+    }
+    .enlace_qs a {
+      color: $color-fff;
+      text-decoration: none;
+      display: inline;
+      padding: 0.2em 3em;
+      text-transform: uppercase;
+      background-color: $color-fondosecbg;
+      border-radius: 5px;
+      &:hover {
+        transition: all 5ms;
+        color: $color-secundario;
+        border: 0.1rem solid $color-secundario;
+        background-color: $color-fff;
+      }
+    }
+  }
+  
+}
+
+/*-----SEC-FUNDADORA-----*/
+.sec_fun {
+  width: 100%;
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  .contenedor_fun {
+    width: 95%;
+    height: 100%;
+    padding: 0.5em;
+    background-color: $color-fondosec;
+    border-radius: 10px;
+    .texto_fun {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 20% 30% 30%;
+      align-content: center;
+      text-align: center;
+    }
+    .texto_fun h2 {
+      font-family: $font-h2;
+      font-size: 2rem;
+    }
+    .texto_fun p {
+      font-size: 1.1rem;
+    }
+    .enlace_fun {
+      text-align: center;
+      text-transform: uppercase;
+      border-radius: 5px;
+      margin-top: 2em;
+    }
+    .enlace_fun a {
+      color: $color-fff;
+      text-decoration: none;
+      display: inline;
+      padding: 0.2em 3em;
+      text-transform: uppercase;
+      background-color: $color-fondosecbg;
+      border-radius: 5px;
+      &:hover {
+        transition: all 5ms;
+        color: $color-secundario;
+        border: 0.1rem solid $color-secundario;
+        background-color: $color-fff;
+      }
+    }
+    
+  }
+  
+}
+
+
+/*-----SEC-SERVICIOS-----*/
+.sec_ser {
+  width: 100%;
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  .contenedor_ser {
+    width: 95%;
+    height: 100%;
+    padding: 0.5em;
+    background-color: $color-fondosec;
+    border-radius: 10px;
+    .video_ser {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      justify-content: center;
+      align-items: center;
+    }
+    .lista_ser {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: 15% 60% 15%;
+      text-transform: uppercase;
+      margin-top: 2em;
+    }
+    .lista_ser h2 {
+      font-family: $font-h2;
+      font-size: 2rem;
+    }
+    .enlace_ser {
+      text-align: center;
+      text-transform: uppercase;
+      border-radius: 5px;
+      margin-top: 2em;
+    }
+    .enlace_ser a {
+      color: $color-fff;
+      text-decoration: none;
+      display: inline;
+      padding: 0.2em 3em;
+      text-transform: uppercase;
+      background-color: $color-fondosecbg;
+      border-radius: 5px;
+      &:hover {
+        transition: all 5ms;
+        color: $color-secundario;
+        border: 0.1rem solid $color-secundario;
+        background-color: $color-fff;
+      }
+    }
+  }
+}
+/*-----SEC_PRODUCTO-----*/
+
+
+  
+  
+  
+/*------MAIN-SEC-SUSCRIBIR-----*/
+.sec_suscribir{
+  width: 100%;
+  margin-top: .5em;
+  display: flex;
+  justify-content: center;
+}
+.contenedor_susc{
+  width: 95%;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, .2);
+  border-radius: 10px;
+  padding: 2em;
+  margin-top: 1em;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 20% auto;
+  justify-content: center;
+  align-items: center;
+}
+.email_form{
+  display: flex;
+  justify-content: center;
+}
+.email_labelform{
+  width: 20em;
+  padding: .2em .5em;
+  margin: .5em .2em;
+  border: none;
+}
+.boton_suscribir{
+  padding: .2em .5em;
+  margin: .5em .2em;
+  border: none;
+  border-radius: .5em;
+}
+.boton_suscribir:hover{
+  color: #fff;
+  background-color: #3d3c3b;
+  padding: .2em .5em;
+  margin: .5em .2em;
+  border: none;
+}
+
+
+

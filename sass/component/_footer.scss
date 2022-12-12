@@ -1,0 +1,49 @@
+.footer {
+  width: 100%;
+  color: $color-fff;
+  background-color: $color-secundario;
+  margin-top: 1em;
+}
+
+/*----COLUMNA-INSTITUCIONAL-----*/
+.ul-footer-inst li {
+  text-transform: uppercase;
+  text-align: left;
+}
+.ul-footer-inst li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/*----COLUMNA-PRODUCTO-----*/
+.h2-footer {
+  color: $color-fff;
+  text-decoration: none;
+}
+.columna3_ol ol li {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+/*----COLUMNA-REDES-FOOTER-----*/
+.span-icon {
+  color: $color-fff;
+}
+.icon-w {
+  color: rgb(126, 227, 126);
+}
+.icon-f {
+  color: rgb(73, 92, 212);
+}
+.icon-y {
+  color: rgb(216, 76, 76);
+}
+.icon-i {
+  color: #ff6d00;
+}
+.span-icon {
+  color: $color-fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin-left: 1em;
+}
