@@ -1,0 +1,34 @@
+.sec_mision{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .contmision{
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    background-color: $color-fondosec;
+    border-radius: 10px;
+    &:hover{
+        background-color: $color-fondosech;
+    }
+  }
+  
+  /*-----SECCION-VISION-----*/
+  .sec_vision{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .contenedor_vision{
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    background-color: $color-fondosec;
+    border-radius: 10px;
+    &:hover{
+        background-color: $color-fondosech;
+    }
+  }

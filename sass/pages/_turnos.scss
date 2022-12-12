@@ -1,21 +1,21 @@
 .formturno{
   width: 80%;
-  background-color: rgba(0, 0, 0, .2);
+  background-color: $color-fondosec;
   margin-top: 40px;
   margin: 3em auto;
   padding: 3em;
   border-radius: 15px;
   transition: all ease 1s;
   &:hover{
-    background-color: rgba(0, 0, 0, .3);
+    background-color: $color-fondosech;
   }
-  &__h2{
+  &_h2{
+    font-family: $font-h2;
+  }
+  &_p{
 
   }
-  &__p{
-
-  }
-  &__form{
-
+  &_form input{
+    border-radius: 5px;
   }
 }

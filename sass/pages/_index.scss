@@ -5,11 +5,14 @@
   display: flex;
   justify-content: center;
   .contenedor_qs {
-    width: 95%;
+    width: 80%;
     height: 100%;
     padding: 0.5em;
     background-color: $color-fondosec;
     border-radius: 10px;
+    &:hover{
+      background-color: $color-fondosech;
+    }
     .texto_qs {
       display: block;
       text-align: center;
@@ -21,6 +24,7 @@
       margin-top: 10px;
     }
     .texto_qs p {
+      font-family: $font-p;
       font-size: 1.1rem;
       margin-bottom: 5px;
     }
@@ -56,11 +60,14 @@
   display: flex;
   justify-content: center;
   .contenedor_fun {
-    width: 95%;
+    width: 80%;
     height: 100%;
     padding: 0.5em;
     background-color: $color-fondosec;
     border-radius: 10px;
+    &:hover{
+      background-color: $color-fondosech;
+    }
     .texto_fun {
       display: grid;
       grid-template-columns: 1fr;
@@ -73,6 +80,7 @@
       font-size: 2rem;
     }
     .texto_fun p {
+      font-family: $font-p;
       font-size: 1.1rem;
     }
     .enlace_fun {
@@ -199,8 +207,8 @@
   border-radius: .5em;
 }
 .boton_suscribir:hover{
-  color: #fff;
-  background-color: #3d3c3b;
+  color: $color-fff;
+  background-color: $color-secundario;
   padding: .2em .5em;
   margin: .5em .2em;
   border: none;
