@@ -236,11 +236,11 @@ header .navheader {
   display: inline;
   padding: 0.2em 3em;
   text-transform: uppercase;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: gradient(black orange);
   border-radius: 5px;
+  transition: all 5ms;
 }
 .sec_fun .contenedor_fun .enlace_fun a:hover {
-  transition: all 5ms;
   color: #3d3c3b;
   border: 0.1rem solid #3d3c3b;
   background-color: #fff;
@@ -254,8 +254,7 @@ header .navheader {
   justify-content: center;
 }
 .sec_ser .contenedor_ser {
-  width: 95%;
-  height: 100%;
+  width: 80%;
   padding: 0.5em;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
@@ -290,7 +289,7 @@ header .navheader {
   display: inline;
   padding: 0.2em 3em;
   text-transform: uppercase;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: gradient(black orange);
   border-radius: 5px;
 }
 .sec_ser .contenedor_ser .enlace_ser a:hover {
@@ -300,7 +299,6 @@ header .navheader {
   background-color: #fff;
 }
 
-/*-----SEC_PRODUCTO-----*/
 /*------MAIN-SEC-SUSCRIBIR-----*/
 .sec_suscribir {
   width: 100%;
@@ -310,7 +308,7 @@ header .navheader {
 }
 
 .contenedor_susc {
-  width: 95%;
+  width: 80%;
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -342,7 +340,6 @@ header .navheader {
   border: none;
   border-radius: 0.5em;
 }
-
 .boton_suscribir:hover {
   color: #fff;
   background-color: #3d3c3b;
@@ -357,7 +354,7 @@ header .navheader {
 }
 
 .con_secprod {
-  width: 95%;
+  width: 80%;
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 2em;
@@ -376,7 +373,7 @@ header .navheader {
 
 .span_prod {
   font-family: "Roboto Mono", monospace;
-  font-size: 2.5rem;
+  font-size: 1rem;
   text-transform: uppercase;
   padding: 0.3em;
   margin: 1em 0;
@@ -484,6 +481,85 @@ header .navheader {
 }
 .contenedor_vision:hover {
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.sec_servicio-lavado {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 2em auto;
+  padding: 1em;
+  border-radius: 10px;
+  transition: all ease 1s;
+}
+
+.sec_servicio-lavado:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sec_servicio-corte {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 2em auto;
+  padding: 1em;
+  border-radius: 10px;
+  transition: all ease 1s;
+}
+
+.sec_servicio-corte:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sec_servicio-peinado {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 2em auto;
+  padding: 1em;
+  border-radius: 10px;
+  transition: all ease 1s;
+}
+
+.sec_servicio-peinado:hover {
+  transition: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sec_servicio-tratamientos {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 2em auto;
+  padding: 1em;
+  border-radius: 10px;
+  transition: all ease 1s;
+}
+
+.sec_servicio-tratamientos:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sec_servicio-color {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 2em auto;
+  padding: 1em;
+  border-radius: 10px;
+  transition: all ease 1s;
+}
+
+.sec_servicio-color:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sec_servicio-alizado {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 2em auto;
+  padding: 1em;
+  border-radius: 10px;
+  transition: all ease 1s;
+}
+
+.sec_servicio-alizado:hover {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .formturno {

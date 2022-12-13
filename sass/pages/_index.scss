@@ -95,10 +95,10 @@
       display: inline;
       padding: 0.2em 3em;
       text-transform: uppercase;
-      background-color: $color-fondosecbg;
+      background-color: $color-btn;
       border-radius: 5px;
+      transition: all 5ms;
       &:hover {
-        transition: all 5ms;
         color: $color-secundario;
         border: 0.1rem solid $color-secundario;
         background-color: $color-fff;
@@ -117,8 +117,8 @@
   display: flex;
   justify-content: center;
   .contenedor_ser {
-    width: 95%;
-    height: 100%;
+    width: 80%;
+    // height: 100%;
     padding: 0.5em;
     background-color: $color-fondosec;
     border-radius: 10px;
@@ -152,7 +152,7 @@
       display: inline;
       padding: 0.2em 3em;
       text-transform: uppercase;
-      background-color: $color-fondosecbg;
+      background-color: $color-btn;
       border-radius: 5px;
       &:hover {
         transition: all 5ms;
@@ -163,10 +163,6 @@
     }
   }
 }
-/*-----SEC_PRODUCTO-----*/
-
-
-  
   
   
 /*------MAIN-SEC-SUSCRIBIR-----*/
@@ -177,7 +173,7 @@
   justify-content: center;
 }
 .contenedor_susc{
-  width: 95%;
+  width: 80%;
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, .2);
   border-radius: 10px;
@@ -205,13 +201,14 @@
   margin: .5em .2em;
   border: none;
   border-radius: .5em;
-}
-.boton_suscribir:hover{
-  color: $color-fff;
-  background-color: $color-secundario;
-  padding: .2em .5em;
-  margin: .5em .2em;
-  border: none;
+  &:hover{
+    color: $color-fff;
+    background-color: $color-secundario;
+    padding: .2em .5em;
+    margin: .5em .2em;
+    border: none;
+  }
+  
 }
 
 
