@@ -6,9 +6,11 @@ Por ahora cuenta con 5 paginas, index.html como la principal, luego tenemos:
   servicios.html
   productos.html
   turnos.html
- 
- Tambien cuenta con una unica hoja de estilo "style.css"
+  
+ El proyecto se estiliza con css, utilizando SASS para una mejor organización del código,
+ en el cual hacemos usos de mixin, variables, @import.. teniendo una mejor lectura de los estilos.
  
  El proyecto esta estructurado con Grid y Flexbox.
+ Tambien se trabajo con las herramientas de boostrap.
  Tambien se está trabajando en modo movile firt.
   
