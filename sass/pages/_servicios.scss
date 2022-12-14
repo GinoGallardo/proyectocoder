@@ -1,72 +1,71 @@
 .sec_servicio-lavado{
     width: 80%;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: $color-fondosec;
     margin: 2em auto;
     padding: 1em;
     border-radius: 10px;
     transition: all ease 1s;
+    &:hover{
+    background-color: $color-fondosech;
   }
-  .sec_servicio-lavado:hover{
-    background-color: rgba(0, 0, 0, .3);
   }
   
   .sec_servicio-corte{
     width: 80%;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: $color-fondosec;
     margin: 2em auto;
     padding: 1em;
     border-radius: 10px;
     transition: all ease 1s;
+    &:hover{
+    background-color: $color-fondosech;
   }
-  .sec_servicio-corte:hover{
-    background-color: rgba(0, 0, 0, .3);
   }
   
   .sec_servicio-peinado{
     width: 80%;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: $color-fondosec;
     margin: 2em auto;
     padding: 1em;
     border-radius: 10px;
     transition: all ease 1s;
-  }
-  .sec_servicio-peinado:hover{
-    transition: 1;
-    background-color: rgba(0, 0, 0, .3);
+    &:hover{
+    background-color: $color-fondosech;
+    }
   }
   
   .sec_servicio-tratamientos{
     width: 80%;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: $color-fondosec;
     margin: 2em auto;
     padding: 1em;
     border-radius: 10px;
     transition: all ease 1s;
+    &:hover{
+      background-color: $color-fondosech;
+    }
   }
-  .sec_servicio-tratamientos:hover{
-    background-color: rgba(0, 0, 0, .3);
-  }
-  
+   
   .sec_servicio-color{
     width: 80%;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: $color-fondosec;
     margin: 2em auto;
     padding: 1em;
     border-radius: 10px;
     transition: all ease 1s;
-  }
-  .sec_servicio-color:hover{
-    background-color: rgba(0, 0, 0, .3);
+    &:hover{
+      background-color: $color-fondosech;
+    }
   }
   
   .sec_servicio-alizado{
     width: 80%;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: $color-fondosec;
     margin: 2em auto;
     padding: 1em;
     border-radius: 10px;
     transition: all ease 1s;
-  }
-  .sec_servicio-alizado:hover{
-    background-color: rgba(0, 0, 0, .3);
+    &:hover{
+      background-color: $color-fondosech;
+    }
   }
