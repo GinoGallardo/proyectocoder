@@ -1,107 +1,21 @@
 /*-----SEC-QUIENES SOMOS-----*/
 .sec_qs {
-  width: 100%;
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
+  @include secc_index;
   .contenedor_qs {
-    width: 80%;
-    height: 100%;
-    padding: 0.5em;
-    background-color: $color-fondosec;
-    border-radius: 10px;
-    &:hover{
-      background-color: $color-fondosech;
-    }
+    @include cont_secc-index;
     .texto_qs {
       display: block;
       text-align: center;
       padding-top: 10px;
-    }
-    .texto_qs h2 {
-      font-family: $font-h2;
-      font-size: 2rem;
-      margin-top: 10px;
-    }
-    .texto_qs p {
-      font-family: $font-p;
-      font-size: 1.1rem;
-      margin-bottom: 5px;
-    }
-    .enlace_qs {
-      text-align: center;
-      text-transform: uppercase;
-      border-radius: 5px;
-      margin-top: 2em;
-    }
-    .enlace_qs a {
-      color: $color-fff;
-      text-decoration: none;
-      display: inline;
-      padding: 0.2em 3em;
-      text-transform: uppercase;
-      background-color: $color-fondosecbg;
-      border-radius: 5px;
-      &:hover {
-        transition: all 5ms;
-        color: $color-secundario;
-        border: 0.1rem solid $color-secundario;
-        background-color: $color-fff;
+      h2 {
+        font-family: $font-h2;
+        font-size: 2rem;
+        margin-top: 10px;
       }
-    }
-  }
-  
-}
-
-/*-----SEC-FUNDADORA-----*/
-.sec_fun {
-  width: 100%;
-  margin-top: 0.5em;
-  display: flex;
-  justify-content: center;
-  .contenedor_fun {
-    width: 80%;
-    height: 100%;
-    padding: 0.5em;
-    background-color: $color-fondosec;
-    border-radius: 10px;
-    &:hover{
-      background-color: $color-fondosech;
-    }
-    .texto_fun {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 20% 30% 30%;
-      align-content: center;
-      text-align: center;
-    }
-    .texto_fun h2 {
-      font-family: $font-h2;
-      font-size: 2rem;
-    }
-    .texto_fun p {
-      font-family: $font-p;
-      font-size: 1.1rem;
-    }
-    .enlace_fun {
-      text-align: center;
-      text-transform: uppercase;
-      border-radius: 5px;
-      margin-top: 2em;
-    }
-    .enlace_fun a {
-      color: $color-fff;
-      text-decoration: none;
-      display: inline;
-      padding: 0.2em 3em;
-      text-transform: uppercase;
-      background-color: $color-btn;
-      border-radius: 5px;
-      transition: all 5ms;
-      &:hover {
-        color: $color-secundario;
-        border: 0.1rem solid $color-secundario;
-        background-color: $color-fff;
+      p {
+        font-family: $font-p;
+        font-size: 1.1rem;
+        margin-bottom: 5px;
       }
     }
     
@@ -109,19 +23,36 @@
   
 }
 
+/*-----SEC-FUNDADORA-----*/
+.sec_fun {
+  @include secc_index;
+  .contenedor_fun {
+    @include cont_secc-index;
+    .texto_fun {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 20% 30% 30%;
+      align-content: center;
+      text-align: center;
+      h2 {
+        font-family: $font-h2;
+        font-size: 2rem;
+      }
+      p {
+        font-family: $font-p;
+        font-size: 1.1rem;
+      }
+    }
+  }
+  
+}
+
 
 /*-----SEC-SERVICIOS-----*/
 .sec_ser {
-  width: 100%;
-  margin-top: 0.5em;
-  display: flex;
-  justify-content: center;
+  @include secc_index;
   .contenedor_ser {
-    width: 80%;
-    // height: 100%;
-    padding: 0.5em;
-    background-color: $color-fondosec;
-    border-radius: 10px;
+    @include cont_secc-index;
     .video_ser {
       display: grid;
       grid-template-columns: auto;
@@ -135,56 +66,22 @@
       grid-template-rows: 15% 60% 15%;
       text-transform: uppercase;
       margin-top: 2em;
-    }
-    .lista_ser h2 {
-      font-family: $font-h2;
-      font-size: 2rem;
-    }
-    .enlace_ser {
-      text-align: center;
-      text-transform: uppercase;
-      border-radius: 5px;
-      margin-top: 2em;
-    }
-    .enlace_ser a {
-      color: $color-fff;
-      text-decoration: none;
-      display: inline;
-      padding: 0.2em 3em;
-      text-transform: uppercase;
-      background-color: $color-btn;
-      border-radius: 5px;
-      &:hover {
-        transition: all 5ms;
-        color: $color-secundario;
-        border: 0.1rem solid $color-secundario;
-        background-color: $color-fff;
+      h2 {
+        font-family: $font-h2;
+        font-size: 2rem;
       }
     }
+    
   }
 }
   
   
 /*------MAIN-SEC-SUSCRIBIR-----*/
 .sec_suscribir{
-  width: 100%;
-  margin-top: .5em;
-  display: flex;
-  justify-content: center;
+  @include secc_index;
 }
 .contenedor_susc{
-  width: 80%;
-  text-transform: uppercase;
-  background-color: rgba(0, 0, 0, .2);
-  border-radius: 10px;
-  padding: 2em;
-  margin-top: 1em;
-  text-align: center;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 20% auto;
-  justify-content: center;
-  align-items: center;
+  @include cont_secc-index;
 }
 .email_form{
   display: flex;

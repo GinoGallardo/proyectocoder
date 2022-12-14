@@ -39,57 +39,5 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  .tarprod{
-    width: 300px;
-    position: relative;
-    z-index: 0;
-    margin: 5px ;
-    transition: all ease 1s;
-    &:hover{
-      box-shadow: 1px 1px 20px -10px black;
-    }
-    &:hover &_desc{
-      margin-top: 0;
-    }
-    &_img{
-      width: 100%;
-      height: 220px;
-      padding: 10px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      z-index: 1;
-      img{
-        width: 100%;
-        height: 100%;
-      }
-    }
-    &_desc{
-      width: 100%;
-      height: 220px;
-      color: $color-secundario;
-      background-color: rgba(255, 111, 0, 0.198);
-      padding: 10px;
-      margin-top: -220px;
-      h3{
-        font-family: $font-h3;
-        color: $color-secundario;
-        font-size: 1.1rem;
-        margin-top: 10px;
-      }
-      p{
-        font-family: $font-p;
-        font-size: .7rem;
-        margin-top: 10px;
-      }
-      span{
-        margin-top: 20px;
-        padding: 10px 40px;
-        background-color: $color-secundario;
-        color: $color-fff;
-        border: none;
-      }
-    }
-  }
+  
    

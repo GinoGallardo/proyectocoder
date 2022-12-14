@@ -1,0 +1,20 @@
+@mixin secc_index{
+  width: 100%;
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+}
+@mixin cont_secc-index{
+    width: 80%;
+    padding: 0.5em;
+    background-color: $color-fondosec;
+    border-radius: 10px;
+}
+@mixin secc_servicios{
+    width: 80%;
+    background-color: $color-fondosec;
+    margin: 2em auto;
+    padding: 1em;
+    border-radius: 10px;
+    transition: all ease 1s;
+}

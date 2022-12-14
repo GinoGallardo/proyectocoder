@@ -1,70 +1,40 @@
 .sec_servicio-lavado{
-    width: 80%;
-    background-color: $color-fondosec;
-    margin: 2em auto;
-    padding: 1em;
-    border-radius: 10px;
-    transition: all ease 1s;
+  @include secc_servicios;
     &:hover{
     background-color: $color-fondosech;
   }
   }
   
   .sec_servicio-corte{
-    width: 80%;
-    background-color: $color-fondosec;
-    margin: 2em auto;
-    padding: 1em;
-    border-radius: 10px;
-    transition: all ease 1s;
+    @include secc_servicios;
     &:hover{
     background-color: $color-fondosech;
   }
   }
   
   .sec_servicio-peinado{
-    width: 80%;
-    background-color: $color-fondosec;
-    margin: 2em auto;
-    padding: 1em;
-    border-radius: 10px;
-    transition: all ease 1s;
+    @include secc_servicios;
     &:hover{
     background-color: $color-fondosech;
     }
   }
   
   .sec_servicio-tratamientos{
-    width: 80%;
-    background-color: $color-fondosec;
-    margin: 2em auto;
-    padding: 1em;
-    border-radius: 10px;
-    transition: all ease 1s;
+    @include secc_servicios;
     &:hover{
       background-color: $color-fondosech;
     }
   }
    
   .sec_servicio-color{
-    width: 80%;
-    background-color: $color-fondosec;
-    margin: 2em auto;
-    padding: 1em;
-    border-radius: 10px;
-    transition: all ease 1s;
+    @include secc_servicios;
     &:hover{
       background-color: $color-fondosech;
     }
   }
   
   .sec_servicio-alizado{
-    width: 80%;
-    background-color: $color-fondosec;
-    margin: 2em auto;
-    padding: 1em;
-    border-radius: 10px;
-    transition: all ease 1s;
+    @include secc_servicios;
     &:hover{
       background-color: $color-fondosech;
     }
