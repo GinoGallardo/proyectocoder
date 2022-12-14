@@ -9,26 +9,27 @@ header {
   .navheader {
     display: flex;
     padding: 10px;
+    ul a{
+      font-family: "Montserrat", sans-serif;
+      color: #fff;
+      margin: 0em 0.5em;
+      padding: 5px 10px;
+      transition: all 0.5s;
+      text-transform: uppercase;
+      color: $color-primario;
+      &:hover {
+        border-radius: 0.2em;
+        background-color: $color-primario2;
+        border-bottom: 0.1em solid $color-primario;
+        padding: 0em 0.2em;
+      }
+    }
   }
 }
 .navheader_logo {
   width: 50px;
 }
-.navheader ul a{
-  font-family: "Montserrat", sans-serif;
-  color: #fff;
-  margin: 0em 0.5em;
-  padding: 5px 10px;
-  transition: all 0.5s;
-  text-transform: uppercase;
-  color: $color-primario;
-  &:hover {
-    border-radius: 0.2em;
-    background-color: $color-primario2;
-    border-bottom: 0.1em solid $color-primario;
-    padding: 0em 0.2em;
-  }
-}
+
 .color-iconbar {
   background-color: $color-primario;
 }
