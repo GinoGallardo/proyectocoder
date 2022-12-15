@@ -1,8 +1,8 @@
 /*-----SEC-QUIENES SOMOS-----*/
 .sec_qs {
-  @include secc_index;
+  @include secc_index();
   .contenedor_qs {
-    @include cont_secc-index;
+    @include cont_secc-index();
     .texto_qs {
       display: block;
       text-align: center;

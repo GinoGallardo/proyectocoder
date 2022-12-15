@@ -10,7 +10,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: linear-gradient(to bottom right, #9664bb 0%, #6f37a4 20%, #95289b 40%, #fe7098 60%, #f973d2 80%);
+  background-image: linear-gradient(to bottom right, rgba(187, 117, 100, 0.5803921569) 0%, rgba(164, 120, 55, 0.6431372549) 20%, rgba(155, 115, 40, 0.5333333333) 40%, rgba(254, 112, 152, 0.5607843137) 60%, rgba(249, 115, 211, 0.568627451) 80%);
   background-size: 200% 200%;
   -webkit-animation: movimiento 5s linear infinite alternate;
           animation: movimiento 5s linear infinite alternate;
@@ -61,7 +61,7 @@ body {
   }
 }
 .enlace_ser a {
-  margin: 1em auto;
+  margin: 2em auto;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #fff;
   text-transform: uppercase;
@@ -93,12 +93,7 @@ header .navheader {
   display: flex;
   padding: 10px;
 }
-
-.navheader_logo {
-  width: 50px;
-}
-
-.navheader ul a {
+header .navheader ul a {
   font-family: "Montserrat", sans-serif;
   color: #fff;
   margin: 0em 0.5em;
@@ -107,11 +102,15 @@ header .navheader {
   text-transform: uppercase;
   color: #ff6d00;
 }
-.navheader ul a:hover {
+header .navheader ul a:hover {
   border-radius: 0.2em;
   background-color: rgba(255, 111, 0, 0.1647058824);
   border-bottom: 0.1em solid #ff6d00;
   padding: 0em 0.2em;
+}
+
+.navheader_logo {
+  width: 50px;
 }
 
 .color-iconbar {
@@ -130,7 +129,6 @@ header .navheader {
   text-transform: uppercase;
   text-align: left;
 }
-
 .ul-footer-inst li a {
   color: #fff;
   text-decoration: none;
@@ -144,7 +142,7 @@ header .navheader {
   text-decoration: none;
 }
 
-.columna3_ol ol li {
+.columna3_ol ul li {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
 }
@@ -178,7 +176,7 @@ header .navheader {
 }
 
 .tarprod {
-  width: 300px;
+  width: 280px;
   position: relative;
   z-index: 0;
   margin: 5px;
@@ -207,7 +205,6 @@ header .navheader {
 .tarprod_desc {
   width: 100%;
   height: 220px;
-  color: #3d3c3b;
   background-color: rgba(255, 111, 0, 0.198);
   padding: 10px;
   margin-top: -220px;
@@ -221,7 +218,7 @@ header .navheader {
 }
 .tarprod_desc p {
   font-family: "Roboto Slab", serif;
-  color: #3d3c3b;
+  color: black;
   font-size: 0.7rem;
   margin-bottom: 5px;
 }
@@ -235,20 +232,16 @@ header .navheader {
 
 /*-----SEC-QUIENES SOMOS-----*/
 .sec_qs {
-  width: 100%;
-  margin-top: 10px;
+  width: 90%;
+  margin-top: 0.5em;
   display: flex;
   justify-content: center;
 }
 .sec_qs .contenedor_qs {
-  width: 80%;
-  height: 100%;
+  width: 90%;
   padding: 0.5em;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-}
-.sec_qs .contenedor_qs:hover {
-  background-color: rgba(0, 0, 0, 0.2);
 }
 .sec_qs .contenedor_qs .texto_qs {
   display: block;
@@ -268,22 +261,16 @@ header .navheader {
 
 /*-----SEC-FUNDADORA-----*/
 .sec_fun {
-  width: 100%;
+  width: 90%;
   margin-top: 0.5em;
   display: flex;
   justify-content: center;
 }
 .sec_fun .contenedor_fun {
-  width: 80%;
-  height: 100%;
+  width: 90%;
   padding: 0.5em;
   background-color: rgba(0, 0, 0, 0.3);
-  -webkit-backdrop-filter: blur(2px);
-          backdrop-filter: blur(2px);
   border-radius: 10px;
-}
-.sec_fun .contenedor_fun:hover {
-  background-color: rgba(0, 0, 0, 0.2);
 }
 .sec_fun .contenedor_fun .texto_fun {
   display: grid;
@@ -303,19 +290,16 @@ header .navheader {
 
 /*-----SEC-SERVICIOS-----*/
 .sec_ser {
-  width: 100%;
+  width: 90%;
   margin-top: 0.5em;
   display: flex;
   justify-content: center;
 }
 .sec_ser .contenedor_ser {
-  width: 80%;
+  width: 90%;
   padding: 0.5em;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-}
-.sec_ser .contenedor_ser:hover {
-  background-color: rgba(0, 0, 0, 0.2);
 }
 .sec_ser .contenedor_ser .video_ser {
   display: grid;
@@ -338,25 +322,17 @@ header .navheader {
 
 /*------MAIN-SEC-SUSCRIBIR-----*/
 .sec_suscribir {
-  width: 100%;
+  width: 90%;
   margin-top: 0.5em;
   display: flex;
   justify-content: center;
 }
 
 .contenedor_susc {
-  width: 80%;
-  text-transform: uppercase;
-  background-color: rgba(0, 0, 0, 0.2);
+  width: 90%;
+  padding: 0.5em;
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  padding: 2em;
-  margin-top: 1em;
-  text-align: center;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 20% auto;
-  justify-content: center;
-  align-items: center;
 }
 
 .email_form {
@@ -386,12 +362,12 @@ header .navheader {
 }
 
 .sec_prod {
-  width: 100%;
+  width: 90%;
   margin-top: 0.5em;
 }
 
 .con_secprod {
-  width: 80%;
+  width: 90%;
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 2em;
@@ -413,7 +389,7 @@ header .navheader {
   font-size: 1rem;
   text-transform: uppercase;
   padding: 0.3em;
-  margin: 1em 0;
+  margin: 1em auto;
   background-color: #fff;
   border: solid 1px;
   box-shadow: 2px 2px 10px 5px black;
@@ -467,7 +443,7 @@ header .navheader {
 }
 
 .sec_servicio-lavado {
-  width: 80%;
+  width: 90%;
   background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
@@ -479,7 +455,7 @@ header .navheader {
 }
 
 .sec_servicio-corte {
-  width: 80%;
+  width: 90%;
   background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
@@ -491,7 +467,7 @@ header .navheader {
 }
 
 .sec_servicio-peinado {
-  width: 80%;
+  width: 90%;
   background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
@@ -503,7 +479,7 @@ header .navheader {
 }
 
 .sec_servicio-tratamientos {
-  width: 80%;
+  width: 90%;
   background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
@@ -515,7 +491,7 @@ header .navheader {
 }
 
 .sec_servicio-color {
-  width: 80%;
+  width: 90%;
   background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
@@ -527,7 +503,7 @@ header .navheader {
 }
 
 .sec_servicio-alizado {
-  width: 80%;
+  width: 90%;
   background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
@@ -552,7 +528,4 @@ header .navheader {
 }
 .formturno_h2 {
   font-family: "Montserrat", sans-serif;
-}
-.formturno_form input {
-  border-radius: 5px;
 }/*# sourceMappingURL=main.css.map */

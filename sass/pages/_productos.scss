@@ -1,9 +1,9 @@
 .sec_prod{
-    width: 100%;
+    width: 90%;
     margin-top: .5em;
   }
   .con_secprod{
-    width: 80%;
+    width: 90%;
     text-transform: uppercase;
     background-color: $color-fondosec;
     padding: 2em;
@@ -24,7 +24,7 @@
     font-size: 1rem;
     text-transform: uppercase;
     padding: .3em;
-    margin: 1em 0;
+    margin: 1em auto;
     background-color: $color-fff;
     border: solid 1px;
     box-shadow: 2px 2px 10px 5px black;
