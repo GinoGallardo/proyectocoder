@@ -10,7 +10,7 @@
   text-transform: uppercase;
   text-align: left;
   a {
-    color: #fff;
+    color: $color-fff;
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
@@ -21,10 +21,6 @@
 .h2-footer {
   color: $color-fff;
   text-decoration: none;
-}
-.columna3_ol ul li {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
 }
 /*----COLUMNA-REDES-FOOTER-----*/
 .span-icon {

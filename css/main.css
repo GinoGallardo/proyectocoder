@@ -10,7 +10,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: linear-gradient(to bottom right, rgba(187, 117, 100, 0.5803921569) 0%, rgba(164, 120, 55, 0.6431372549) 20%, rgba(155, 115, 40, 0.5333333333) 40%, rgba(254, 112, 152, 0.5607843137) 60%, rgba(249, 115, 211, 0.568627451) 80%);
+  background-image: linear-gradient(to bottom right, rgba(243, 46, 154, 0.7058823529) 0%, #f969cc 20%, #ffa3fe 40%, rgba(254, 112, 152, 0.5607843137) 60%, rgba(249, 115, 211, 0.7529411765) 80%);
   background-size: 200% 200%;
   -webkit-animation: movimiento 5s linear infinite alternate;
           animation: movimiento 5s linear infinite alternate;
@@ -35,16 +35,16 @@ body {
 }
 .boton-wsp {
   position: fixed;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   line-height: 63px;
   bottom: 25px;
   right: 25px;
   background: #25d366;
-  color: #fff;
+  color: white;
   border-radius: 50px;
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   z-index: 100;
   transition: all 300ms ease;
@@ -142,11 +142,6 @@ header .navheader ul a:hover {
   text-decoration: none;
 }
 
-.columna3_ol ul li {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-}
-
 /*----COLUMNA-REDES-FOOTER-----*/
 .span-icon {
   color: #fff;
@@ -232,13 +227,13 @@ header .navheader ul a:hover {
 
 /*-----SEC-QUIENES SOMOS-----*/
 .sec_qs {
-  width: 90%;
-  margin-top: 0.5em;
+  width: 95%;
+  margin: 0.5em auto 0;
   display: flex;
   justify-content: center;
 }
 .sec_qs .contenedor_qs {
-  width: 90%;
+  width: 95%;
   padding: 0.5em;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
@@ -261,13 +256,13 @@ header .navheader ul a:hover {
 
 /*-----SEC-FUNDADORA-----*/
 .sec_fun {
-  width: 90%;
-  margin-top: 0.5em;
+  width: 95%;
+  margin: 0.5em auto 0;
   display: flex;
   justify-content: center;
 }
 .sec_fun .contenedor_fun {
-  width: 90%;
+  width: 95%;
   padding: 0.5em;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
@@ -290,13 +285,13 @@ header .navheader ul a:hover {
 
 /*-----SEC-SERVICIOS-----*/
 .sec_ser {
-  width: 90%;
-  margin-top: 0.5em;
+  width: 95%;
+  margin: 0.5em auto 0;
   display: flex;
   justify-content: center;
 }
 .sec_ser .contenedor_ser {
-  width: 90%;
+  width: 95%;
   padding: 0.5em;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
@@ -322,14 +317,14 @@ header .navheader ul a:hover {
 
 /*------MAIN-SEC-SUSCRIBIR-----*/
 .sec_suscribir {
-  width: 90%;
-  margin-top: 0.5em;
+  width: 95%;
+  margin: 0.5em auto 0;
   display: flex;
   justify-content: center;
 }
 
 .contenedor_susc {
-  width: 90%;
+  width: 95%;
   padding: 0.5em;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
@@ -363,11 +358,11 @@ header .navheader ul a:hover {
 
 .sec_prod {
   width: 90%;
-  margin-top: 0.5em;
+  margin: 0.5em auto 0;
 }
 
 .con_secprod {
-  width: 90%;
+  width: 100%;
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 2em;
@@ -413,7 +408,7 @@ header .navheader ul a:hover {
 }
 
 .contmision {
-  width: 80%;
+  width: 90%;
   height: 100%;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.3);
@@ -432,7 +427,7 @@ header .navheader ul a:hover {
 }
 
 .contenedor_vision {
-  width: 80%;
+  width: 90%;
   height: 100%;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.3);
@@ -443,7 +438,7 @@ header .navheader ul a:hover {
 }
 
 .sec_servicio-lavado {
-  width: 90%;
+  width: 95%;
   background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
@@ -455,7 +450,7 @@ header .navheader ul a:hover {
 }
 
 .sec_servicio-corte {
-  width: 90%;
+  width: 95%;
   background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
@@ -467,7 +462,7 @@ header .navheader ul a:hover {
 }
 
 .sec_servicio-peinado {
-  width: 90%;
+  width: 95%;
   background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
@@ -479,7 +474,7 @@ header .navheader ul a:hover {
 }
 
 .sec_servicio-tratamientos {
-  width: 90%;
+  width: 95%;
   background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
@@ -491,7 +486,7 @@ header .navheader ul a:hover {
 }
 
 .sec_servicio-color {
-  width: 90%;
+  width: 95%;
   background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
@@ -503,7 +498,7 @@ header .navheader ul a:hover {
 }
 
 .sec_servicio-alizado {
-  width: 90%;
+  width: 95%;
   background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
