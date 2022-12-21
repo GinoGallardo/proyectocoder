@@ -1,15 +1,8 @@
 .sec_mision{
-    width: 100%;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
+    @include seccion_page;
   }
   .contmision{
-    width: 90%;
-    height: 100%;
-    padding: 10px;
-    background-color: $color-fondosec;
-    border-radius: 10px;
+    @include contenedor_seccion-page;
     &:hover{
         background-color: $color-fondosech;
     }
@@ -17,17 +10,11 @@
   
   /*-----SECCION-VISION-----*/
   .sec_vision{
-    width: 100%;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
+    @include seccion_page;
+
   }
   .contenedor_vision{
-    width: 90%;
-    height: 100%;
-    padding: 10px;
-    background-color: $color-fondosec;
-    border-radius: 10px;
+    @include contenedor_seccion-page;
     &:hover{
         background-color: $color-fondosech;
     }

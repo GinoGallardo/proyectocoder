@@ -1,41 +1,49 @@
 .sec_servicio-lavado{
-  @include secc_servicios;
+  @include seccion_page;
     &:hover{
     background-color: $color-fondosech;
   }
   }
   
   .sec_servicio-corte{
-    @include secc_servicios;
+    @include seccion_page;
     &:hover{
     background-color: $color-fondosech;
   }
   }
   
   .sec_servicio-peinado{
-    @include secc_servicios;
+    @include seccion_page;
     &:hover{
     background-color: $color-fondosech;
     }
   }
   
   .sec_servicio-tratamientos{
-    @include secc_servicios;
+    @include seccion_page;
     &:hover{
       background-color: $color-fondosech;
     }
   }
    
   .sec_servicio-color{
-    @include secc_servicios;
+    @include seccion_page;
     &:hover{
       background-color: $color-fondosech;
     }
   }
   
   .sec_servicio-alizado{
-    @include secc_servicios;
+    @include seccion_page;
     &:hover{
       background-color: $color-fondosech;
     }
+  }
+
+  .borde_izquierdo{
+    @include borde_izquierdo;
+  }
+
+  .borde_derecho{
+    @include borde_derecho;
   }

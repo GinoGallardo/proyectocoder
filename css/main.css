@@ -77,6 +77,7 @@ body {
 }
 .enlace_ser a:hover {
   background-position: right;
+  border: 1px solid #fff;
 }
 
 header {
@@ -200,7 +201,7 @@ header .navheader ul a:hover {
 .tarprod_desc {
   width: 100%;
   height: 220px;
-  background-color: rgba(255, 111, 0, 0.198);
+  background-color: none;
   padding: 10px;
   margin-top: -220px;
   transition: all ease 1s;
@@ -235,7 +236,10 @@ header .navheader ul a:hover {
 .sec_qs .contenedor_qs {
   width: 95%;
   padding: 0.5em;
-  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 .sec_qs .contenedor_qs .texto_qs {
@@ -264,7 +268,10 @@ header .navheader ul a:hover {
 .sec_fun .contenedor_fun {
   width: 95%;
   padding: 0.5em;
-  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 .sec_fun .contenedor_fun .texto_fun {
@@ -293,7 +300,10 @@ header .navheader ul a:hover {
 .sec_ser .contenedor_ser {
   width: 95%;
   padding: 0.5em;
-  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 .sec_ser .contenedor_ser .video_ser {
@@ -326,7 +336,10 @@ header .navheader ul a:hover {
 .contenedor_susc {
   width: 95%;
   padding: 0.5em;
-  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 
@@ -364,7 +377,10 @@ header .navheader ul a:hover {
 .con_secprod {
   width: 100%;
   text-transform: uppercase;
-  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   padding: 2em;
   margin: 0em auto 0em;
   text-align: center;
@@ -376,7 +392,7 @@ header .navheader ul a:hover {
   align-items: center;
 }
 .con_secprod:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .span_prod {
@@ -411,11 +427,11 @@ header .navheader ul a:hover {
   width: 90%;
   height: 100%;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
 }
 .contmision:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 /*-----SECCION-VISION-----*/
@@ -430,88 +446,114 @@ header .navheader ul a:hover {
   width: 90%;
   height: 100%;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
 }
 .contenedor_vision:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .sec_servicio-lavado {
   width: 95%;
-  background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
   border-radius: 10px;
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
 .sec_servicio-lavado:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .sec_servicio-corte {
   width: 95%;
-  background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
   border-radius: 10px;
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
 .sec_servicio-corte:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .sec_servicio-peinado {
   width: 95%;
-  background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
   border-radius: 10px;
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
 .sec_servicio-peinado:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .sec_servicio-tratamientos {
   width: 95%;
-  background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
   border-radius: 10px;
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
 .sec_servicio-tratamientos:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .sec_servicio-color {
   width: 95%;
-  background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
   border-radius: 10px;
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
 .sec_servicio-color:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .sec_servicio-alizado {
   width: 95%;
-  background-color: rgba(0, 0, 0, 0.3);
   margin: 2em auto;
   padding: 1em;
   border-radius: 10px;
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
 .sec_servicio-alizado:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.borde_izquierdo {
+  border-left: solid 0.2em black;
+}
+
+.borde_derecho {
+  border-right: solid 0.2em black;
 }
 
 .formturno {
   width: 80%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   margin-top: 40px;
   margin: 3em auto;
   padding: 3em;
@@ -519,7 +561,7 @@ header .navheader ul a:hover {
   transition: all ease 1s;
 }
 .formturno:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 .formturno_h2 {
   font-family: "Montserrat", sans-serif;

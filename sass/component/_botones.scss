@@ -14,5 +14,6 @@
     transition: all ease 1s;
     &:hover{
         background-position: right;
+        border: 1px solid #fff;
     }
 }

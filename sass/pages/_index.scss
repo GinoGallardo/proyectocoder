@@ -1,58 +1,66 @@
 /*-----SEC-QUIENES SOMOS-----*/
+.sec_portada{
+  @include contenedor_seccion-page
+}
 .sec_qs {
-  @include secc_index();
-  .contenedor_qs {
-    @include cont_secc-index();
-    .texto_qs {
-      display: block;
-      text-align: center;
-      padding-top: 10px;
-      h2 {
-        font-family: $font-h2;
-        font-size: 2rem;
-        margin-top: 10px;
-      }
-      p {
-        font-family: $font-p;
-        font-size: 1.1rem;
-        margin-bottom: 5px;
-      }
-    }
-    
+  @include seccion_page();
+}
+.contenedor_qs {
+  @include contenedor_seccion-page();
+  &:hover {
+    background-color: $color-fondosech;
   }
-  
+}
+.texto_qs {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  h2 {
+    font-family: $font-h2;
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+  p {
+    font-family: $font-p;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
 }
 
 /*-----SEC-FUNDADORA-----*/
 .sec_fun {
-  @include secc_index;
-  .contenedor_fun {
-    @include cont_secc-index;
-    .texto_fun {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 20% 30% 30%;
-      align-content: center;
-      text-align: center;
-      h2 {
-        font-family: $font-h2;
-        font-size: 2rem;
-      }
-      p {
-        font-family: $font-p;
-        font-size: 1.1rem;
-      }
-    }
-  }
-  
+  @include seccion_page;
 }
-
+.contenedor_fun {
+  @include contenedor_seccion-page;
+  &:hover {
+    background-color: $color-fondosech;
+  }
+}
+.texto_fun {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20% 30% 30%;
+  align-content: center;
+  text-align: center;
+}
+h2 {
+  font-family: $font-h2;
+  font-size: 2rem;
+}
+p {
+  font-family: $font-p;
+  font-size: 1.1rem;
+}
 
 /*-----SEC-SERVICIOS-----*/
 .sec_ser {
-  @include secc_index;
+  @include seccion_page;
   .contenedor_ser {
-    @include cont_secc-index;
+    @include contenedor_seccion-page;
+    &:hover {
+      background-color: $color-fondosech;
+    }
     .video_ser {
       display: grid;
       grid-template-columns: auto;
@@ -71,42 +79,43 @@
         font-size: 2rem;
       }
     }
-    
   }
 }
-  
-  
+
 /*------MAIN-SEC-SUSCRIBIR-----*/
-.sec_suscribir{
-  @include secc_index;
+.sec_suscribir {
+  @include secc_index();
+  &:hover {
+    background-color: $color-fondosech;
+  }
 }
-.contenedor_susc{
-  @include cont_secc-index;
+.contenedor_susc {
+  @include cont_secc-index();
+  &:hover{
+    background-color: black;
+  }
 }
-.email_form{
+.email_form {
   display: flex;
   justify-content: center;
 }
-.email_labelform{
+.email_labelform {
   width: 20em;
-  padding: .2em .5em;
-  margin: .5em .2em;
-  border: none;
+  padding: 0.2em 0.5em;
+  margin: 0.5em 0.2em;
+  border-bottom: .3em solid black;
+  background-color: red($color: #000000);
 }
-.boton_suscribir{
-  padding: .2em .5em;
-  margin: .5em .2em;
+.boton_suscribir {
+  padding: 0.2em 0.5em;
+  margin: 0.5em 0.2em;
   border: none;
-  border-radius: .5em;
-  &:hover{
+  border-radius: 0.5em;
+  &:hover {
     color: $color-fff;
     background-color: $color-secundario;
-    padding: .2em .5em;
-    margin: .5em .2em;
+    padding: 0.2em 0.5em;
+    margin: 0.5em 0.2em;
     border: none;
   }
-  
 }
-
-
-
