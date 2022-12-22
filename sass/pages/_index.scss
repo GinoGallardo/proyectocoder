@@ -1,12 +1,9 @@
 /*-----SEC-QUIENES SOMOS-----*/
 .sec_portada{
-  @include contenedor_seccion-page
+  @include secc_portada
 }
 .sec_qs {
   @include seccion_page();
-}
-.contenedor_qs {
-  @include contenedor_seccion-page();
   &:hover {
     background-color: $color-fondosech;
   }
@@ -30,11 +27,9 @@
 /*-----SEC-FUNDADORA-----*/
 .sec_fun {
   @include seccion_page;
-}
-.contenedor_fun {
-  @include contenedor_seccion-page;
   &:hover {
     background-color: $color-fondosech;
+    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, .4);
   }
 }
 .texto_fun {
@@ -56,10 +51,9 @@ p {
 /*-----SEC-SERVICIOS-----*/
 .sec_ser {
   @include seccion_page;
-  .contenedor_ser {
-    @include contenedor_seccion-page;
     &:hover {
       background-color: $color-fondosech;
+      box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, .4);
     }
     .video_ser {
       display: grid;
@@ -80,21 +74,16 @@ p {
       }
     }
   }
-}
 
 /*------MAIN-SEC-SUSCRIBIR-----*/
 .sec_suscribir {
-  @include secc_index();
+  @include seccion_page();
   &:hover {
     background-color: $color-fondosech;
+    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, .4);
   }
 }
-.contenedor_susc {
-  @include cont_secc-index();
-  &:hover{
-    background-color: black;
-  }
-}
+
 .email_form {
   display: flex;
   justify-content: center;
@@ -103,8 +92,6 @@ p {
   width: 20em;
   padding: 0.2em 0.5em;
   margin: 0.5em 0.2em;
-  border-bottom: .3em solid black;
-  background-color: red($color: #000000);
 }
 .boton_suscribir {
   padding: 0.2em 0.5em;
@@ -114,8 +101,9 @@ p {
   &:hover {
     color: $color-fff;
     background-color: $color-secundario;
-    padding: 0.2em 0.5em;
-    margin: 0.5em 0.2em;
-    border: none;
+    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, .4);
   }
+}
+.row{
+  margin-bottom: 1em;
 }
