@@ -25,7 +25,7 @@
         <h1 class="h1ee">Estilo Escorpiano</h1>
         <div class="container navheader">
           <a href="../index.html">
-            <img class="navheader_logo" src="../img/iconoee.png" alt="">
+            <img class="navheader_logo" src="../img/iconoee.png" alt="logo estilo escorpiano">
           </a>
           <button class="navbar-toggler color-iconbar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon color-iconbar"></span>
@@ -47,26 +47,26 @@
         <div class="formturno container">
           <h2 class="formturno_h2 text-center displey-2 fw-bold">Solicita tu turno</h2>
           <p class="formturno_p text-center">Ingresa tus datos para solicitar turno, a la brevedad nos estaremos comunicando con vos.</p>
-          <form action="">
+          <form action="" name="reservaturno" netlify >
             <div class="row">
               <label class="col-12 col-lg-4 mb-1" for="nombreapellido">Nombre y Apellido:</label>
-              <input class="input col-12 col-lg-6 mb-1" type="text" id="nombreapellido" placeholder="ingresa nombre y apellido" class="formturno_form--texto mt-3">
+              <input class="input col-12 col-lg-6 mb-1" name="nombreapellido" type="text" id="nombreapellido" placeholder="ingresa nombre y apellido" class="formturno_form--texto mt-3">
             </div>
             <div class="row">
               <label class="col-12 col-lg-4 mb-1" for="email">Email:</label>
-              <input class="input col-12 col-lg-6 mb-1" type="email" id="email" placeholder="********@****.com" class="formturno_form--texto mt-3">
+              <input class="input col-12 col-lg-6 mb-1" name="email" type="email" id="email" placeholder="********@****.com" class="formturno_form--texto mt-3">
             </div>
             <div class="row">
               <label class="col-12 col-lg-4 mb-1" for="celular">Celular:</label>
-              <input class="input col-12 col-lg-6 mb-1" type="tel" id="celular" placeholder="11-1111-1111" class="formturno_form--texto mt-3">
+              <input class="input col-12 col-lg-6 mb-1" name="celular" type="tel" id="celular" placeholder="11-1111-1111" class="formturno_form--texto mt-3">
             </div>
             <div class="row">
               <label class="col-12 col-lg-4 mb-1" for="servicio">Servicio</label>
-              <input class="input col-12 col-lg-6 mb-1" type="text" id="servicio" placeholder="Servicio" class="formturno_form--textoo mt-3">
+              <input class="input col-12 col-lg-6 mb-1" name="servicio" type="text" id="servicio" placeholder="Servicio" class="formturno_form--textoo mt-3">
             </div>
 
             <div class="btn_turno d-flex justify-content-center mt-3 " >
-              <input type="submit" value="Solicitar Turno">
+              <input type="submit" name="botonsolicitar" value="Solicitar Turno">
             </div>
           </form>
         </div>
