@@ -124,22 +124,13 @@ header .navheader ul a:hover {
   margin-top: 1em;
 }
 
-/*----COLUMNA-INSTITUCIONAL-----*/
-.ul-footer-inst li {
-  text-transform: uppercase;
-  text-align: left;
-}
-.ul-footer-inst li a {
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
 /*----COLUMNA-PRODUCTO-----*/
 .h2-footer {
   color: #fff;
   text-decoration: none;
+}
+.h2-footer:hover {
+  color: #fff;
 }
 
 /*----COLUMNA-REDES-FOOTER-----*/
@@ -236,6 +227,7 @@ header .navheader ul a:hover {
 .sec_qs {
   width: 100%;
   margin-top: 10px;
+  padding: 1em;
   display: flex;
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
@@ -246,6 +238,32 @@ header .navheader ul a:hover {
 }
 .sec_qs:hover {
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+.enlase_whatsapp-carrusel {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.carousel-contenido {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  right: 15%;
+  top: 1rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-contenidoh2 {
+  font-size: 1.5rem;
+}
+
+.carousel-contenidoh3 {
+  font-size: 1rem;
 }
 
 .texto_qs {
@@ -268,6 +286,7 @@ header .navheader ul a:hover {
 .sec_fun {
   width: 100%;
   margin-top: 10px;
+  padding: 1em;
   display: flex;
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
@@ -303,6 +322,7 @@ p {
 .sec_ser {
   width: 100%;
   margin-top: 10px;
+  padding: 1em;
   display: flex;
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
@@ -338,6 +358,7 @@ p {
 .sec_suscribir {
   width: 100%;
   margin-top: 10px;
+  padding: 1em;
   display: flex;
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
@@ -428,6 +449,7 @@ p {
 .sec_mision {
   width: 100%;
   margin-top: 10px;
+  padding: 1em;
   display: flex;
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
@@ -436,19 +458,7 @@ p {
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
-
-.contmision {
-  width: 95%;
-  margin: 2em auto;
-  padding: 1em;
-  border-radius: 10px;
-  -webkit-backdrop-filter: blur(1rem);
-          backdrop-filter: blur(1rem);
-  background-color: rgba(255, 255, 255, 0.3);
-  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
-  transition: all ease 1s;
-}
-.contmision:hover {
+.sec_mision:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -456,6 +466,7 @@ p {
 .sec_vision {
   width: 100%;
   margin-top: 10px;
+  padding: 1em;
   display: flex;
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
@@ -464,25 +475,14 @@ p {
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
-
-.contenedor_vision {
-  width: 95%;
-  margin: 2em auto;
-  padding: 1em;
-  border-radius: 10px;
-  -webkit-backdrop-filter: blur(1rem);
-          backdrop-filter: blur(1rem);
-  background-color: rgba(255, 255, 255, 0.3);
-  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
-  transition: all ease 1s;
-}
-.contenedor_vision:hover {
+.sec_vision:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
 .sec_servicio-lavado {
   width: 100%;
   margin-top: 10px;
+  padding: 1em;
   display: flex;
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
@@ -499,6 +499,7 @@ p {
 .sec_servicio-corte {
   width: 100%;
   margin-top: 10px;
+  padding: 1em;
   display: flex;
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
@@ -515,6 +516,7 @@ p {
 .sec_servicio-peinado {
   width: 100%;
   margin-top: 10px;
+  padding: 1em;
   display: flex;
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
@@ -531,6 +533,7 @@ p {
 .sec_servicio-tratamientos {
   width: 100%;
   margin-top: 10px;
+  padding: 1em;
   display: flex;
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
@@ -547,6 +550,7 @@ p {
 .sec_servicio-color {
   width: 100%;
   margin-top: 10px;
+  padding: 1em;
   display: flex;
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
@@ -563,6 +567,7 @@ p {
 .sec_servicio-alizado {
   width: 100%;
   margin-top: 10px;
+  padding: 1em;
   display: flex;
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);

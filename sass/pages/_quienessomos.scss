@@ -1,8 +1,5 @@
 .sec_mision{
     @include seccion_page;
-  }
-  .contmision{
-    @include contenedor_seccion-page;
     &:hover{
         background-color: $color-fondosech;
     }
@@ -11,10 +8,6 @@
   /*-----SECCION-VISION-----*/
   .sec_vision{
     @include seccion_page;
-
-  }
-  .contenedor_vision{
-    @include contenedor_seccion-page;
     &:hover{
         background-color: $color-fondosech;
     }

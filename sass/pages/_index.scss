@@ -8,6 +8,30 @@
     background-color: $color-fondosech;
   }
 }
+.enlase_whatsapp-carrusel{
+  text-decoration: none;
+  color: $color-fff;
+  font-size: 1rem;
+}
+.carousel-contenido{
+  font-family: $font-h2;
+  position: absolute;
+  right: 15%;
+  top: 1rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+.carousel-contenidoh2{
+  font-size: 1.5rem;
+}
+.carousel-contenidoh3{
+  font-size: 1rem;
+}
+
+
 .texto_qs {
   display: block;
   text-align: center;

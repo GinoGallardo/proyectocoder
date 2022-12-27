@@ -5,29 +5,20 @@
   margin-top: 1em;
 }
 
-/*----COLUMNA-INSTITUCIONAL-----*/
-.ul-footer-inst li {
-  text-transform: uppercase;
-  text-align: left;
-  a {
-    color: $color-fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    cursor: pointer;
-  }
-}
-
 /*----COLUMNA-PRODUCTO-----*/
 .h2-footer {
   color: $color-fff;
   text-decoration: none;
+  &:hover{
+    color: $color-fff;
+  }
 }
 /*----COLUMNA-REDES-FOOTER-----*/
 .span-icon {
   color: $color-fff;
 }
 .icon-w {
-  color: rgb(126, 227, 126);
+  color: rgb(126, 227, 126);;
 }
 .icon-f {
   color: rgb(73, 92, 212);
