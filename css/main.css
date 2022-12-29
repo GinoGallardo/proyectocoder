@@ -139,19 +139,19 @@ header .navheader ul a:hover {
 }
 
 .icon-w {
-  color: rgb(126, 227, 126);
+  color: #fff;
 }
 
 .icon-f {
-  color: rgb(73, 92, 212);
+  color: #fff;
 }
 
 .icon-y {
-  color: rgb(216, 76, 76);
+  color: #fff;
 }
 
 .icon-i {
-  color: #ff6d00;
+  color: #fff;
 }
 
 .span-icon {
@@ -232,7 +232,6 @@ header .navheader ul a:hover {
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
           backdrop-filter: blur(1rem);
-  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
@@ -291,7 +290,6 @@ header .navheader ul a:hover {
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
           backdrop-filter: blur(1rem);
-  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
@@ -327,7 +325,6 @@ p {
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
           backdrop-filter: blur(1rem);
-  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
@@ -363,7 +360,6 @@ p {
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
           backdrop-filter: blur(1rem);
-  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
@@ -395,33 +391,27 @@ p {
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.4);
 }
 
-.row {
-  margin-bottom: 1em;
-}
-
 .sec_prod {
-  width: 100%;
-  margin-top: 0.5em;
+  width: 95%;
+  margin: 0.5em auto 0;
 }
 
 .con_secprod {
-  width: 95%;
+  width: 100%;
   text-transform: uppercase;
-  padding: 2em;
-  margin: 0em auto 0em;
   text-align: center;
-  border-radius: 10px;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 10% auto 10%;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
 .con_secprod:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.4);
 }
 
@@ -437,9 +427,7 @@ p {
 }
 
 .contenedor_prod {
-  width: 100%;
-  height: 100%;
-  padding: 0.5em;
+  width: 90%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -454,7 +442,6 @@ p {
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
           backdrop-filter: blur(1rem);
-  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
@@ -471,7 +458,6 @@ p {
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
           backdrop-filter: blur(1rem);
-  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
@@ -487,7 +473,6 @@ p {
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
           backdrop-filter: blur(1rem);
-  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
@@ -504,7 +489,6 @@ p {
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
           backdrop-filter: blur(1rem);
-  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
@@ -521,7 +505,6 @@ p {
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
           backdrop-filter: blur(1rem);
-  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
@@ -538,7 +521,6 @@ p {
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
           backdrop-filter: blur(1rem);
-  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
@@ -555,7 +537,6 @@ p {
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
           backdrop-filter: blur(1rem);
-  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
@@ -572,7 +553,6 @@ p {
   justify-content: center;
   -webkit-backdrop-filter: blur(1rem);
           backdrop-filter: blur(1rem);
-  background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   transition: all ease 1s;
 }
